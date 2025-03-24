@@ -1,9 +1,14 @@
 package oop;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Getter
+@Setter
 public class FleetManagement {
 
     List<Garage> garages;
